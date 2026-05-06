@@ -72,7 +72,7 @@ buildPythonPackage rec {
     homepage = "https://github.com/frenck/python-peblar";
     changelog = "https://github.com/frenck/python-peblar/releases/tag/v${version}";
     license = lib.licenses.mit;
-    mainProgram = "";
+    mainProgram = "peblar";
     maintainers = with lib.maintainers; [ fab ];
   };
 }
