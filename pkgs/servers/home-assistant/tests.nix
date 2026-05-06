@@ -18,6 +18,9 @@ let
     automation = getComponentDeps "frontend" ++ getComponentDeps "mobile_app";
     axis = getComponentDeps "camera" ++ getComponentDeps "deconz";
     blink = getComponentDeps "camera";
+    bluetooth = [
+      aioesphomeapi
+    ];
     bthome = getComponentDeps "frontend";
     buienradar = getComponentDeps "camera";
     camera = getComponentDeps "conversation" ++ getComponentDeps "stream";
